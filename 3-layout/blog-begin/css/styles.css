@@ -49,8 +49,15 @@ header {
 }
 
 .rightheader {
-    border: 2px dotted red;
     margin: .1rem 0;
+}
+
+.rightheader h1 {
+    color: #DA0090;
+}
+
+.rightheader p {
+    margin-top: -1.5rem;
 }
 
 nav {
