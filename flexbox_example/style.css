@@ -1,0 +1,23 @@
+
+/*
+  Parent container - (Flex)
+*/
+ul {
+  border: 2px dotted red;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-flow: row wrap; /* default */
+  /* justify-content: flex-start; default */
+  justify-content: space-around;
+}
+
+/*
+  Child container - (Flex Item)
+*/
+li {
+  border: 2px dotted blue;
+  flex-basis: 10%;
+}
