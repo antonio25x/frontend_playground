@@ -23,8 +23,13 @@ This one I found in Instagram and I just wanted to try to recreat it. It does lo
 ## Flexbox Example
 This one is from [this post](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). It is a complete tutorial about Flexbox in CSS. You should definitely check it out. 
 
+**Big screen example**  
 ![Flex box nav bar example in a big screen][flexbox-nav-bar-big-screen]
+
+**Medium screen example**  
 ![Flex box nav bar example in a medium screen][flexbox-nav-bar-medium-screen]
+
+**Small screen example**  
 ![Flex box nav bar example in a small screen][flexbox-nav-bar-small-screen]
 
 
