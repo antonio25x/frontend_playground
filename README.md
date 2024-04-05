@@ -17,12 +17,25 @@ This is another example from the bootcamp. This time we played with the navigati
 ## Nav Example
 This one I found in Instagram and I just wanted to try to recreat it. It does look okay but I think it can be better with a better icon and more colors. The page is mobile friendly. 
 
-![This is a demo of a horizontal nav bar][nav_bar_final]
+![This is a demo of a horizontal nav bar][nav-bar-final]
 
 
-## Flexbox Example :construction:
-This one is still a work in progress while I learn more about `flex` in CSS.
+## Flexbox Example
+This one is from [this post](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). It is a complete tutorial about Flexbox in CSS. You should definitely check it out. 
+
+![Flex box nav bar example in a big screen][flexbox-nav-bar-big-screen]
+![Flex box nav bar example in a medium screen][flexbox-nav-bar-medium-screen]
+![Flex box nav bar example in a small screen][flexbox-nav-bar-small-screen]
+
+
+
+
+
 
 [3-layout-demo]: 3-layout/demo/final_result.png
 [css-demo]: css_bootcamp/demo/css_about_me_final.png
-[nav_bar_final]: nav_example/demo/nav_bar_final.png
+[nav-bar-final]: nav_example/demo/nav_bar_final.png
+
+[flexbox-nav-bar-big-screen]: /flexbox_example/demo/nav_bar_big_screen.png
+[flexbox-nav-bar-medium-screen]: /flexbox_example/demo/nav_bar_medium_screen.png
+[flexbox-nav-bar-small-screen]: /flexbox_example/demo/nav_bar_small_screen.png

@@ -1,9 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 
 /*
   Parent container - (Flex)
 */
 ul {
-  border: 2px dotted red;
+  background-color: lightslategray;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -11,13 +16,44 @@ ul {
   display: flex;
   flex-flow: row wrap; /* default */
   /* justify-content: flex-start; default */
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
 /*
   Child container - (Flex Item)
 */
 li {
-  border: 2px dotted blue;
-  flex-basis: 10%;
+  background-color: cadetblue;
+}
+
+li a, a:active {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+
+li a:hover {
+  background-color: beige;
+  color: brown;
+}
+
+@media (max-width: 800px) {
+
+  ul {
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 500px) {
+  ul {
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+
+  li {
+    text-align: center;
+    border-top: 1px solid darkcyan;
+  }
 }
