@@ -32,7 +32,9 @@ This one is from [this post](https://css-tricks.com/snippets/css/a-guide-to-flex
 **Small screen example**  
 ![Flex box nav bar example in a small screen][flexbox-nav-bar-small-screen]
 
-
+## Learn Nextjs tutorial
+Started reading this tutorial from Nextjs. 
+https://nextjs.org/learn/dashboard-app
 
 
 
